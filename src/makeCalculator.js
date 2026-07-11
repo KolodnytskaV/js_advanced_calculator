@@ -11,7 +11,7 @@ function makeCalculator() {
       a + b;
     },
 
-    substract(a, b) {
+    subtract(a, b) {
       a - b;
     },
 
@@ -24,7 +24,7 @@ function makeCalculator() {
     },
 
     reset() {
-      thas.result = 0;
+      this.result = 0;
       return this;
     },
 
